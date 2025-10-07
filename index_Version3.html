@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Pong Game</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Pong Game</h1>
+  <div id="score">
+    <span id="playerScore">0</span> : <span id="aiScore">0</span>
+  </div>
+  <canvas id="pong" width="600" height="400"></canvas>
+  <!-- Sound effects -->
+  <audio id="hitSound" src="https://cdn.pixabay.com/audio/2022/12/19/audio_125bfa2a9b.mp3" preload="auto"></audio>
+  <audio id="scoreSound" src="https://cdn.pixabay.com/audio/2022/03/15/audio_115b7f7dc4.mp3" preload="auto"></audio>
+  <script src="game.js"></script>
+</body>
+</html>
